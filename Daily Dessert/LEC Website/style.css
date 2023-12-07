@@ -1,0 +1,1757 @@
+*{
+    padding : 0;
+    margin : 0;
+}
+
+body{
+    overflow-x: hidden;
+    margin-top: 130px;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header{
+    display: flex;
+    width: 100vw;
+    height: 130px;
+    justify-content: space-between;
+    position: fixed;
+    overflow: hidden;
+    z-index: 1;
+    background-color: #FBECD0;
+    margin-top: -130px;
+}
+
+.logoDD img{
+    padding-bottom: 20px;
+    width: 180px;
+    height: 120px;
+}
+
+.menuNavigation{
+    float: left;
+    text-align: center;
+}
+
+nav{
+    margin: auto;
+    display: flex;
+    background-color: #FBECD0;
+    text-align: center;
+}
+
+nav ul{
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li{
+    float: left;
+    text-align: center;
+}
+
+nav ul li a {
+    font-family: itim;
+    font-size: 32px;
+    color: black;
+    text-align: center;
+    text-decoration: none;
+    justify-content: center;
+    padding: 0px 50px 0px 50px;
+    line-height: 190px;
+}
+
+.logoKeranjang img{
+    width: 100px;
+    height: 90px;
+    margin-left: -140px;
+}
+
+.bungkusIklan1{
+    display: flex;
+    position: relative;
+    margin: auto;
+}
+
+.gambarBg1{
+    width: 100vw;
+    height: 270px;
+    position: relative;
+    margin: auto;
+}
+
+.tulisanBest{
+    position: absolute;
+    margin-top: 50px;
+    margin-left: 100px;
+    font-family: itim;
+    font-size: 64px;
+    color: black;
+}
+
+.tulisanIn{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 300px;
+    font-family: itim;
+    font-size: 64px;
+    color: black;
+}
+
+.gmbr1Iklan1{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    margin-left: 1000px;
+}
+
+.gmbr2Iklan1{
+    width: 500px;
+    height: 300px;
+    position: absolute;
+    margin-left: 1000px;
+}
+
+.gmbr3Iklan1{
+    width: 120px;
+    height: 240px;
+    position: absolute;
+    margin-left: 1300px;
+    margin-top: 20px;
+}
+
+.bungkusIklan2{
+    display: flex;
+}
+
+.gambarBg2{
+    width: 100vw;
+    height: 270px;
+}
+
+.gmbr1Iklan2{
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    margin-left: 1000px;
+}
+
+.gmbr2Iklan2{
+    width: 300px;
+    height: 200px;
+    position: absolute;
+    margin-left: 1100px;
+    margin-top: 100px;
+}
+
+.tulisanCount{
+    position: absolute;
+    font-size: 64px;
+    color: black;
+    font-family: itim;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.tulisanNot{
+    position: absolute;
+    font-size: 64px;
+    color: black;
+    font-family: itim;
+    margin-top: 100px;
+    margin-left: 300px;
+}
+
+.bungkusIklan3{
+    display: flex;
+}
+
+.gambarBg3{
+    width: 100vw;
+    height: 270px;
+}
+
+.tulisanANews{
+    position: absolute;
+    font-size: 64px;
+    font-family: itim;
+    color: black;
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.tulisanNewDrink{
+    position: absolute;
+    font-size: 64px;
+    font-family: itim;
+    color: black;
+    margin-top: 100px;
+    margin-left: 300px;
+}
+
+.gmbr1Iklan3{
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    margin-left: 1000px;
+}
+
+.gmbr2Iklan3{
+    position: absolute;
+    width: 250px;
+    height: 230px;
+    margin-left: 1150px;
+    margin-top: 50px;
+}
+
+.bungkusFooter1{
+    display: flex;
+    justify-content: space-between;
+}
+.footer{
+    background-color: #FBECD0;
+    width: 100vw;
+    height: 285px;
+}
+
+.dd{
+    font-family: itim;
+    font-size: 32px;
+    color: black;
+}
+
+.penjelasanDD{
+    margin-top: 20px;
+    width: 450px;
+    font-family: itim;
+    font-size: 24px;
+    color: black;
+}
+
+.tulisanContactUs{
+    font-family: itim;
+    font-size: 32px;
+    color: black;
+    margin-left: -80px;
+}
+
+.logoContactUs{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logoIg{
+    margin-left: -80px;
+    width: 70px;
+    height: 70px;
+}
+
+.logoFb{
+    width: 70px;
+    height: 70px;
+    margin-left: 20px;
+}
+
+.logoTwit{
+    width: 80px;
+    height: 80px;
+}
+
+.logoYt{
+    width: 80px;
+    height: 70px;
+    margin-top: 5px;
+}
+
+.logoLine{
+    width: 130px;
+    height: 100px;
+    margin-top: -5px;
+}
+
+.tulisanCopyRight{
+    font-size: 36px;
+    font-family: itim;
+    margin-top: 240px;
+    margin-left: -350px;
+}
+
+.bungkusAtasMenu{
+    display: flex;
+}
+
+.bgMenuAtas1{
+    width: 100vw;
+    height: 220px;
+}
+
+.pilihanMenu{
+    display: flex;
+    justify-content: space-between;
+}
+
+.kotakCakes{
+    position: absolute;
+    width: 443px;
+    height: 196px;
+    box-sizing: border-box;
+    background: #E7955A;
+    margin-left: 10px;
+    margin-top: 10px;
+    border:1px solid black;
+    border-radius: 20px;
+}
+
+.tulisanCakes{
+    font-family: itim;
+    font-size: 32px;
+    text-align: center;
+}
+
+.gambar1Cakes{
+    position: absolute;
+    width: 104px;
+    height: 132px;
+    margin-left: 130px;
+    margin-top: 20px;
+}
+
+.gambar2Cakes{
+    position: absolute;
+    width: 146px;
+    height: 103px;  
+    margin-left: 180px;
+    margin-top: 50px;
+}
+
+.kotakIceCream{
+    position: absolute;
+    width: 443px;
+    height: 196px;
+    box-sizing: border-box;
+    background: #F9CCCC;
+    margin-left: 545px;
+    margin-top: 10px;
+    border:1px solid black;
+    border-radius: 20px;
+}
+
+.tulisanIceCreams{
+    font-family: itim;
+    font-size: 32px;
+    text-align: center;
+}
+
+.gambar1IceCream{
+    position: absolute;
+    width: 114px;
+    height: 188px;
+    margin-left: 150px;
+    margin-top: -40px;
+}
+
+.gambar2IceCream{
+    position: absolute;
+    width: 152px;
+    height: 109px;
+    margin-left: 180px;
+    margin-top: 30px;
+}
+
+.kotakDrink{
+    position: absolute;
+    width: 443px;
+    height: 196px;
+    box-sizing: border-box;
+    background: #62D59E;
+    margin-left: 1070px;
+    margin-top: 10px;
+    border:1px solid black;
+    border-radius: 20px;
+}
+
+.tulisanDrinks{
+    font-family: itim;
+    font-size: 32px;
+    text-align: center;
+}
+
+.gambar1Drinks{
+    position: absolute;
+    width: 161px;
+    height: 120px;
+    margin-left: 100px;
+}
+
+.gambar2Drinks{
+    position: absolute;
+    width: 118px;
+    height: 144px;
+    margin-left: 230px;
+}
+
+.bungkusTengahMenu{
+    box-sizing: border-box;
+    background: #F1EEB2;
+    width: 100vw;
+    height: 94px;
+    border: 1px solid black;
+}
+
+.tulisanGetSame{
+    color:#DF2323;
+    font-family: Itim;
+    font-size: 64px;
+    text-align: center;
+}
+
+.uber{
+    position: absolute;
+    margin-left: 20px;
+    width: 145px;
+    height: 70px;
+    margin-top: -65px;
+}
+
+.shopee{
+    margin-left: 200px;
+    width: 187px;
+    height: 117px;
+    margin-top: -90px;
+}
+
+.grab{
+    position: absolute;
+    margin-left: 750px;
+    margin-top: -65px;
+    width: 110px;
+    height: 68px;
+}
+
+.gojek{
+    position: absolute;
+    width: 175px;
+    height: 45px;
+    margin-left: 900px;
+    margin-top : -55px;
+}
+
+.bgMenuBawahCakes{
+    width: 100vw;
+    height: 900px;
+}
+
+.tulisanCakesMenu{
+    font-family: Itim;
+    font-size: 48px;
+    color: black;
+    position: absolute;
+    margin-left: 20px;
+    margin-top : -900px;
+}
+
+.tiramisuMenu{
+    position: absolute;
+    margin-top: -750px;
+    margin-left: 100px;
+}
+
+.tulisanTiramisuMenu{
+    font-family: Itim;
+    font-size: 32px;
+    color: black;
+    margin-left: 50px;
+}
+
+.gambarTiramisuMenu{
+    width: 225px;
+    height: 225px;
+}
+
+.miniPeanutMenu{
+    position: absolute;
+    margin-top: -750px;
+    margin-left: 680px;
+}
+
+.tulisanMiniPeanutMenu{
+    font-family: Itim;
+    font-size: 32px;
+    color: black;
+}
+
+.gambarMiniPeanutMenu{
+    width: 252px;
+    height: 200px;
+}
+
+.bananaMenu{
+    position: absolute;
+    margin-top: -750px;
+    margin-left: 1200px; 
+}
+
+.gambarBananaMenu{
+    width: 254px;
+    height: 198px;
+}
+
+.tulisanBananaMenu{
+    font-family: Itim;
+    font-size: 32px;
+    color: black;
+}
+
+.gambarSundayMenu{
+    width: 246px;
+    height: 342px;
+    margin-top: -70px;
+    margin-left: 30px;
+}
+
+.puddingMenu{
+    position: absolute;
+    margin-top: -400px;
+    margin-left: 400px;
+}
+
+.tulisanPuddingMenu{
+    font-family: Itim;
+    font-size: 32px;
+    color: black;
+}
+
+.gambarPuddingMenu{
+    width: 222px;
+    height: 227px;
+}
+
+.chocolateChipMenu{
+    position: absolute;
+    margin-top: -400px;
+    margin-left: 950px;
+}
+
+.tulisanChocolateChip{
+    font-family: Itim;
+    font-size: 32px;
+    color: black;
+}
+
+.gambarChocolateChip{
+    width: 308px;
+    height: 200px;
+}
+
+.bgMenuBawahIce{
+    width: 100vw;
+    height: 900px;
+}
+
+.tulisanIceCream{
+    font-family: Itim;
+    font-size: 48px;
+    color: black;
+    position: absolute;
+    margin-left: 20px;
+    margin-top : -900px;
+}
+
+.bgMenuBawahDrink{
+    width: 100vw;
+    height: 900px;
+}
+
+.tulisanDrink{
+    font-family: Itim;
+    font-size: 48px;
+    color: black;
+    position: absolute;
+    margin-left: 20px;
+    margin-top : -900px; 
+}
+
+.gambarHerbalTeaMenu{
+    width: 227px;
+    height: 222px;
+    margin-left: 40px;
+}
+
+.gambarSmoothieMenu{
+    width: 222px;
+    height: 260px;
+}
+
+.gambarIceFruitMenu{
+    width: 321px;
+    height: 248px;
+    margin-left: -50px;
+}
+
+.gambarJuiceMenu{
+    width: 403px;
+    margin-left: -100px;
+    height: 241px;
+}
+
+.gambarYogurt{
+    width: 258px;
+    height: 241px;
+    margin-top: 40px;
+}
+
+.tulisanYogurt{
+    font-family: Itim;
+    font-size: 32px;
+    color: black;
+    position: absolute;
+    margin-left: 100px;
+}
+
+.news1 img{
+    width : 1350px;
+    height: 723px;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.backGroundNews{
+    background: #FFCF76;
+}
+
+.news2 img{
+    width : 1350px;
+    height: 723px;
+    margin-left: 80px;
+    margin-top: 150px;  
+}
+
+.googleMaps{
+    width: 1200px;
+    height: 790px;
+    margin-left: 160px;
+    margin-top: 30px;
+}
+
+.searchMap{
+    box-sizing: border-box;
+    width: 1200px;
+    height: 80px;
+    background: #EFEFEF;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-left: 160px;
+    margin-top: 20px;
+}
+
+.searchLogo{
+    width: 50px;
+    height: 50px;
+    margin-top: 20px;
+}
+
+.ukuranSearch{
+    position: absolute;
+    width: 1000px;
+    height: 60px;
+    margin-top: 10px;
+    font-size: 36px;
+    font-family: itim;
+    background: #EFEFEF;
+    border: none;
+}
+
+.logoDDSearch{
+    width: 60px;
+    height: 45px;
+    margin-left: 1060px;
+}
+
+.bungkusAlamat{
+    display: flex;
+    justify-content: space-between;
+}
+
+.alamat1{
+    width: 380px;
+    height: 290px;
+    margin-left: 160px;
+    margin-top: 20px;
+}
+
+.alamat2{
+    width: 380px;
+    height: 290px;
+    margin-left: -20px;
+    margin-top: 20px;
+}
+
+.alamat3{
+    width: 380px;
+    height: 290px;
+    margin-right: 135px;
+    margin-top: 20px;
+}
+
+.bungkusAlamat2{
+    display: flex;
+    justify-content: space-between;
+}
+
+.alamat4{
+    width: 380px;
+    height: 290px;
+    margin-left: 160px;
+    margin-top: 20px;
+}
+
+.alamat5{
+    width: 380px;
+    height: 290px;
+    margin-left: -20px;
+    margin-top: 20px;
+}
+
+.alamat6{
+    width: 380px;
+    height: 290px;
+    margin-right: 135px;
+    margin-top: 20px;
+}
+
+.promoDarurat{
+    display: flex;
+    justify-content: center;
+}
+
+.kotakPromoDarurat{
+    box-sizing: border-box;
+    background : #FBECD0;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 800px;
+    height: 155px;
+    margin-top: 30px;
+}
+
+.tulisanPromoDarurat{
+    text-align: center;
+    font-family: Itim;
+    font-size: 48px;
+    color: black;
+    margin-top: 40px;
+}
+
+.bungkusPromo1{
+    display: flex;
+    justify-content: space-between;
+}
+
+.promo1{
+    width: 600px;
+    height: 530px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.promo2{
+    width: 600px;
+    height: 530px;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+
+.bungkusPromo2{
+    display: flex;
+    justify-content: space-between; 
+}
+
+.promo3{
+    width: 600px;
+    height: 530px;
+    margin-left: 100px;
+    margin-top: 50px;
+}
+
+.promo4{
+    width: 600px;
+    height: 530px;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+
+.bungkusPromo3{
+    display: flex;
+    justify-content: space-between;
+}
+
+.promo5{
+    width: 600px;
+    height: 530px;
+    margin-left: 100px;
+    margin-top: 50px;  
+}
+
+.promo6{
+    width: 600px;
+    height: 530px;
+    margin-right: 100px;
+    margin-top: 50px; 
+}
+
+.bungkusLogoDDAboutUs{
+    display: flex;
+    justify-content: center;
+}
+
+.logoDDAboutUs{
+    width: 500px;
+    height: 400px;
+    margin-top: 50px;
+}
+
+.bungkusTulisanPenjelasanAboutUs{
+    display: flex;
+    justify-content: center;
+}
+
+.tulisanPenjelasanAboutUs{
+    font-family: itim;
+    font-size: 32px;
+    color: black;
+    width: 1300px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.bungkusSemuaLogin{
+    display: flex;
+    justify-content: center;
+}
+
+.bungkusLogin{
+    box-sizing: border-box;
+    width: 500px;
+    height: 750px;
+    background: white;
+    border-radius: 10px;;
+    margin-top: 30px;
+}
+
+.backgroundLogin{
+    background: #DADBB1E8;
+}
+
+.tulisanLogin{
+    font-family: Itim;
+    font-size: 36px;
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.tulisanUsername{
+    font-family: Itim;
+    font-size: 32px;
+    color: black;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: -150px;
+}
+
+.kotakUsername{
+    box-sizing: border-box;
+    width: 310px;
+    height: 52px;
+    background: white;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin-left: 105px;
+    margin-top: 20px;
+    font-family: itim;
+    font-size: 30px;
+}
+
+.tulisanPassword{
+    font-family: Itim;
+    font-size: 32px;
+    color: black;
+    text-align: center;
+    margin-top: 40px;
+    margin-left: -150px;  
+}
+
+.kotakPassword{
+    box-sizing: border-box;
+    width: 310px;
+    height: 52px;
+    background: white;
+    border-radius: 20px;
+    border: 1px solid black;
+    margin-left: 105px;
+    margin-top: 20px;
+    font-family: itim;
+    font-size: 30px;
+}
+
+.tulisanForgot{
+    font-family: itim;
+    font-size: 25px;
+    color: black;
+    margin-left: 150px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.bungkusButtonLogin{
+    display: flex;
+    justify-content: center;
+}
+
+.buttonLogin{
+    box-sizing: border-box;
+    width: 200px;
+    height: 50px;
+    border: 1px solid black;
+    background: #CED9B1DE;
+    border-radius: 20px;
+    margin-top: 50px;
+}
+
+.tulisanButtonLogin{
+    font-family: itim;
+    font-size: 32px;
+    color: black;
+    text-align: center;
+}
+
+.tulisanYet{
+    text-align: center;
+    margin-top: 100px;
+    font-family: itim;
+    font-size: 13px;
+}
+
+.bungkusButtonRegister{
+    display: flex;
+    justify-content: center;
+}
+
+.buttonRegister{
+    box-sizing: border-box;
+    width: 200px;
+    height: 50px;
+    border: 1px solid black;
+    background: #E6D2D2;
+    border-radius: 20px;
+    margin-top: 10px; 
+}
+
+.tulisanButtonRegister{
+    font-family: itim;
+    font-size: 32px;
+    color: black;
+    text-align: center;
+}
+
+.backgroundRegister{
+    background: #DADBB1;
+}
+
+.bungkusSemuaRegister{
+    display: flex;
+    justify-content: center;
+}
+
+.bungkusRegister{
+    box-sizing: border-box;
+    border: 1px solid black;
+    width: 500px;
+    height: 740px;
+    background: white;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+
+.tulisanRegister{
+    font-family: Itim;
+    font-size: 36px;
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.tulisanUsername2{
+    font-family: itim;
+    font-size: 32px;
+    color: black;
+    margin-left: 20px;
+    margin-top: 50px;
+}
+
+.kotakUsername2{
+    width: 450px;
+    height: 55px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    margin-left: 20px;
+    font-family: itim;
+    font-size: 30px;
+}
+
+.tulisanEmail{
+    font-family: itim;
+    font-size: 32px;
+    color: black;
+    margin-left: 20px;
+}
+
+.kotakEmail{
+    width: 450px;
+    height: 55px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    margin-left: 20px;
+    font-family: itim;
+    font-size: 30px;
+}
+
+.tulisanPassword2{
+    font-family: itim;
+    font-size: 32px;
+    color: black;
+    margin-left: 20px;
+}
+
+.kotakPassword2{
+    width: 450px;
+    height: 55px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    margin-left: 20px;
+    font-family: itim;
+    font-size: 30px;
+}
+
+.tulisanConfirm{
+    font-family: itim;
+    font-size: 32px;
+    color: black;
+    margin-left: 20px;
+}
+
+.kotakConfirm{
+    width: 450px;
+    height: 55px;
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 20px;
+    margin-left: 20px;
+    font-family: itim;
+    font-size: 30px;
+}
+
+.bungkusButtonCreate{
+    display: flex;
+    justify-content: center;
+}
+
+.buttonCreate{
+    width: 240px;
+    height: 50px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    background: #CED9B1;
+    border-radius: 20px;
+    margin-top: 100px;
+}
+
+.tulisanButtonCreate{
+    font-family: Itim;
+    font-size: 32px;
+    color: black;
+    text-align: center;
+    margin-top: 5px;
+}
+
+.tulisanThanks{
+    font-family: Itim;
+    font-size: 64px;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.bungkusKotakFeedback{
+    display: flex;
+    justify-content: space-between;
+}
+
+.kotakKiriFeedback{
+    width: 538px;
+    height: 107px;
+    box-sizing: border-box;
+    background: #97DAEF;
+    border-radius: 20px;
+    margin-left: 80px;
+    margin-top: 20px;
+}
+
+.tulisanFeedback{
+    font-family: itim;
+    font-size: 40px;
+    color: black;
+    margin-top: 30px;
+}
+
+.logoChat{
+    width: 91px;
+    height: 87px;
+    position: absolute;
+    margin-left: 400px;
+    margin-top: -70px;
+}
+
+.kotakKananFeedback{
+    width: 538px;
+    height: 107px;
+    box-sizing: border-box;
+    background: #97DAEF;
+    border-radius: 20px;
+    margin-right: 80px;
+    margin-top: 20px;
+}
+
+.tulisanRating{
+    font-family: itim;
+    font-size: 40px;
+    color: black;
+    margin-top: 20px;
+}
+
+.logoRating{
+    width: 275px;
+    height: 45px;
+    margin-left: 250px;
+    margin-top: -90px;
+    margin-bottom: 10px;
+}
+
+.bungkusKotak2Feedback{
+    display: flex;
+    justify-content: center;
+}
+
+.kotak2Feedback{
+    box-sizing: border-box;
+    width: 1245px;
+    height: 195px;
+    background: #E99D9D;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-top: 100px;
+}
+
+.tulisan2Feedback{
+    font-family: itim;
+    font-size: 36px;
+    color: black;
+    margin-left: 10px;
+}
+
+.tulisanNote{
+    font-family: itim;
+    font-size: 36px;
+    color: black;
+    margin-left: 10px;
+}
+
+.ukuranSearch2{
+    width: 1152px;
+    height: 58px;       
+    background: #E6DCDC;
+    border-radius: 30px;
+    font-family: itim;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-left: 10px;
+}
+
+.bungkusKotak2Rating{
+    display: flex;
+    justify-content: center;
+}
+
+.kotak2Rating{
+    box-sizing: border-box;
+    width: 1245px;
+    height: 307px;
+    background: #E99D9D;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-top: 100px;
+}
+
+.tulisan2Rating{
+    font-family: itim;
+    font-size: 32px;
+    color: black;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.gambarRating{
+    width: 275px;
+    height: 45px;
+    margin-left: 475px;
+    margin-top: 20px;
+}
+
+.tulisan3Rating{
+    font-family: itim;
+    font-size: 32px;
+    color: black;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.gambarRating2{
+    width: 307px;
+    height: 109px;
+    margin-left: 470px;
+    margin-top: 20px;
+}
+
+.gambarTiramisu{
+    width: 520px;
+    margin-left: 20px;
+    height: 522px;
+}
+
+.tulisanTiramisu{
+    font-family: itim;
+    font-size: 64px;
+    color: black;
+    text-align: center;
+    margin-top: -450px;
+}
+
+.hargaTiramisu{
+    font-family: itim;
+    font-size: 48px;
+    color: black;
+    text-align: center;
+    margin-top: 50px;
+}
+
+.tombolPlusMines{
+    display: flex;
+    justify-content: center;
+}
+
+.buttonKurang{
+    width: 71px;
+    height: 66px;
+    margin-left: 10px;
+}
+
+.kotakPlusMines{
+    border: none;
+    appearance: none;
+    text-decoration: none;
+    outline: 0;
+    font-family: itim;
+    font-size: 36px;
+    margin-top: -10px;
+    width: 40px;
+    text-align: center;
+    margin-left: 25px;
+}
+
+
+.buttonTambah{
+    width: 71px;
+    height: 66px;
+    margin-left: 30px;
+} 
+
+.tandaTambah{
+    font-family: itim;
+    font-size: 48px;
+    color: white;
+    text-align: center;
+}
+
+.kotakAddto{
+    width: 290px;
+    height: 89px;
+    background: #CE5353;
+    margin-left: 1100px;
+    margin-top: -50px;
+}
+
+.tulisanAddToCart{
+    font-family: itim;
+    font-size: 48px;
+    color: white;
+    text-align: center;
+    padding-top: 15px;
+}
+
+.deskripsi{
+    font-family: itim;
+    font-size: 32px;
+    color: black;
+    margin-top: 100px;
+}
+
+.deskripsi2{
+    font-family: itim;
+    font-size: 32px;
+    color: black;
+}
+
+.gambarPeanut{
+    width: 541px;
+    height: 427px;
+}
+
+.tulisanMini{
+    font-family: itim;
+    font-size: 64px;
+    color: black;
+    text-align: center;
+    margin-top: -400px;
+    margin-left: 400px;
+}
+
+.tulisanPudding{
+    font-family: itim;
+    font-size: 64px;
+    color: black;
+    text-align: center;
+    margin-top: -400px;
+    margin-left: 220px; 
+}
+
+.gambarGelato{
+    width: 482px;
+    height: 391px;
+}
+
+.tulisanGelato{
+    font-family: itim;
+    font-size: 64px;
+    color: black;
+    text-align: center;
+    margin-top: -400px;
+    margin-left: 250px;
+}
+
+.kotakVarian{
+    width: 289px;
+    height: 89px;
+    border: 1px solid black;
+    margin-left: 1100px;
+    margin-top: -20px;
+}
+
+.tulisanVarian{
+    font-family: itim;
+    font-size: 48px;
+    color: black;
+}
+
+.tombolDropDown{
+    width: 48px;
+    height: 46px;
+    margin-left: 200px;
+    margin-top: -60px;
+}
+
+.gambarSunday{
+    width: 414px;
+    height: 600px;
+    margin-left: 40px;
+    margin-top: -150px;
+}
+
+.tulisanCone{
+    font-family: itim;
+    font-size: 64px;
+    color: black;
+    text-align: center;
+    margin-top: -400px;
+    margin-left: 500px;
+}
+
+.gambarHerbal{
+    width: 423px;
+    height: 379px;
+}
+
+.tulisanHerbal{
+    font-family: itim;
+    font-size: 64px;
+    color: black;
+    text-align: center;
+    margin-top: -350px;
+    margin-left: 100px;
+}
+
+.gambarSmoothie{
+    width: 450px;
+    margin-left: 20px;
+    height: 450px;
+}
+
+.tulisanIceFruit{
+    font-family: itim;
+    font-size: 64px;
+    color: black;
+    text-align: center;
+    margin-top: -350px;
+    margin-left: 0px;
+}
+
+.gambarJuice{
+    width: 596px;
+    height: 450px;
+}
+
+.dropdown{
+    position: relative;
+    display: inline-block;
+}
+
+.dropdownContent{
+    display: none;
+    position: absolute;
+    background: white;
+    width: 289px;
+    font-family: itim;
+    font-size: 35px;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdownContent{
+    display: block;
+}
+
+.dropdownContent1:hover{
+    background: #FFFDC2;
+}
+
+.dropdownContent2:hover{
+    background: #FFFDC2;
+}
+
+.dropdownContent3:hover{
+    background: #FFFDC2;
+}
+
+.dropdownContent4:hover{
+    background: #FFFDC2;
+}
+
+.dropdownContent5:hover{
+    background: #FFFDC2;
+}
+.dropdownContent6:hover{
+    background: #FFFDC2;
+}
+.dropdownContent7:hover{
+    background: #FFFDC2;
+}
+
+.backgroundShopping{
+    background-color: #FBF8E2;
+}
+
+.tulisanShopping{
+    font-family: itim;
+    font-size: 36px;
+    color: black;
+    margin-left: 40px;
+    margin-top : 20px;
+}
+
+.bungkusKotakLuar{
+    display: flex;
+    justify-content: center;
+}
+
+.bungkusKotakShopping{
+    box-sizing: border-box;
+    width: 1333px;
+    height: 114px;
+    background: #FCF6C9;
+    justify-content: space-between;
+    display: flex;
+}
+
+.tulisanDessert{
+    font-family: itim;
+    font-size: 36px;
+    color: black;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.tulisanPrice{
+    font-family: itim;
+    font-size: 36px;
+    color: black;
+    margin-top: 30px;
+}
+
+.tulisanQuantity{
+    font-family: itim;
+    font-size: 36px;
+    color: black;
+    margin-top: 30px;
+}
+
+.tulisanSubTotal{
+    font-family: itim;
+    font-size: 36px;
+    color: black;
+    margin-right: 30px;
+    margin-top: 30px;
+}
+
+.bungkusKotakLuar2{
+    display: flex;
+    justify-content: center;
+}
+
+.bungkusKotakBelanja{
+    box-sizing: border-box;
+    width: 1333px;
+    height: 500px;
+    background: #FBF8E3;
+    justify-content: space-between;
+    display: flex;
+}
+
+.belanja1{
+    width: 311px;
+    height: 266px;
+    margin-left: 0px;
+}
+
+.price1{
+    font-family: itim;
+    font-size: 36px;
+    color: black;
+    margin-left: -200px;
+}
+
+.buttonKurang2{
+    width: 36px;
+    height: 40px;
+    margin-left: -110px;
+}
+
+.buttonTambah2{
+    width: 36px;
+    height: 40px;
+}
+
+.kotakPlusMines2{
+    width: 40px;
+    height: 30px;
+    font-family: itim;
+    font-size: 36px;
+    background: #FBF8E3;
+    border: none;
+    margin-left: -75px;
+}
+
+.subtotal1{
+    font-family: itim;
+    font-size: 36px;
+    color: black;
+    margin-right: 30px;
+}
+
+.bungkusBatas1{
+    display: flex;
+    justify-content: center;
+}
+
+.belanja2{
+    width: 300px;
+    height: 295px;
+}
+
+.bungkusShippingOption{
+    justify-content: space-between;
+    display: flex;
+}
+
+.tulisanShippingOption{
+    font-family: itim;
+    font-size: 36px;
+    color: black;
+    margin-left: 180px;
+}
+
+.tulisanGojek{
+    font-family: itim;
+    font-size: 36px;
+    color: black;
+    margin-left: -130px;
+}
+
+.estimasi{
+    font-family: itim;
+    font-size: 27px;
+    color: black;
+    margin-left: -130px;
+}
+
+.tulisanChange{
+    font-family: itim;
+    font-size: 36px;
+    color: #5765E1;
+    margin-left: -150px;
+}
+
+.hargaEstimasi{
+    font-family: itim;
+    font-size: 36px;
+    color: black;
+    margin-right: 120px;
+}
+
+.dropdownContents{
+    display: none;
+    position: absolute;
+    background: white;
+    width: 590px;
+    font-family: itim;
+    font-size: 36px;
+    z-index: 1;
+    margin-left: -150px;
+}
+
+.dropdown:hover .dropdownContents{
+    display: block;
+}
+
+.bungkusPaymentMethod{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tulisanPaymentMethod{
+    font-family: itim;
+    font-size: 36px;
+    color: black;
+    margin-left: 180px;
+}
+
+.kotakBayar{
+    box-sizing: border-box;
+    border: 1px solid black;
+    width: 357px;
+    height: 97px;
+    background: #FBF8E3;
+    border-radius: 7px;
+    margin-left: -200px;
+}
+
+.isiBayar{
+    font-family: itim;
+    font-size: 36px;
+    color: black;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.tulisanChange2{
+    font-family: itim;
+    font-size: 36px;
+    color: #5765E1;
+    margin-right: 150px;
+}
+
+.dropdownContentss{
+    display: none;
+    position: absolute;
+    background: white;
+    width: 590px;
+    font-family: itim;
+    font-size: 36px;
+    z-index: 1;
+    margin-left: 0px;
+}
+
+.dropdown:hover .dropdownContentss{
+    display: block;
+}
+
+.bungkusFee{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tulisanFee{
+    font-family: itim;
+    font-size: 36px;
+    color: black;
+    margin-left: 800px;
+}
+
+.hargaFee{
+    font-family: itim;
+    font-size: 36px;
+    color: black;
+    margin-right: 120px;
+}
+
+.bungkusTotal{
+    display: flex;
+    justify-content: space-between;
+}
+
+.tulisanTotal{
+    font-family: itim;
+    font-size: 36px;
+    color: black;
+    margin-left: 800px;
+}
+
+.hargaTotal{
+    font-family: itim;
+    font-size: 36px;
+    color: black; 
+    margin-right: 120px;
+}
+
+.bungkusKotakCheckOut{
+    display: flex;
+    justify-content: center;
+}
+
+.kotakCheckOut{
+    box-sizing: border-box;
+    width: 356px;
+    height: 95px;
+    border-radius: 50px;
+    background: #FC9696;
+    margin-left: 1000px;
+}
+
+.tulisanCheckOut{
+    font-family: itim;
+    font-size: 36px;
+    color: black;
+    text-align: center;
+    padding-top: 20px;
+}

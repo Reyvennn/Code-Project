@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Itim&display=swap" rel="stylesheet">
+</head>
+<body class = "backgroundShopping">
+    <nav>
+        <div class = "header">
+            <a href = "home.html">
+                <div class = "logoDD">
+                    <img src = "./Assets/LogoDD.png">
+                </div>
+            </a>
+            <div class = "menuNavigation">
+                <ul>
+                    <li><a href = "menu.html">Menu</a></li>
+                    <li><a href = "news.html">News</a></li>
+                    <li><a href = "outlet.html">Outlet</a></li>
+                    <li><a href = "promo.html">Promo</a></li>
+                    <li><a href = "aboutUs.html">About Us</a></li>
+                    <li><a href = "login.html">Account</a></li>
+                </ul>
+            </div>
+            <div class = "logoKeranjang">
+                <a href = "shoppingcart.html">
+                    <img src = "./Assets/keranjang.png">
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <p class = "tulisanShopping">Shopping Cart</p>
+
+    <div class = "bungkusKotakLuar">
+        <div class = "bungkusKotakShopping">
+            <p class = "tulisanDessert">Dessert</p>
+            <p class = "tulisanPrice">Price</p>
+            <p class = "tulisanQuantity">Quantity</p>
+            <p class = "tulisanSubTotal">Subtotal</p>
+        </div>
+    </div>
+
+    <div class = "bungkusKotakLuar2">
+        <div class = "bungkusKotakBelanja">
+            <img class = "belanja1" src = "./Assets/creamCookie.png">
+            <p class = "price1">14.000</p>
+            <div class = "tombolPlusMines">
+                <span class="down" onClick="Minus(event,this)">
+                    <img class = "buttonKurang2" src = "./Assets/tandaMines2.png">
+                </span>
+                <input class="kotakPlusMines2" type="text" value=1>    
+                <span class="down" onClick="Plus(event,this)">
+                    <img class = "buttonTambah2" src ="./Assets/tandaPlus2.png">
+                </span>
+            </div>
+            <p class = "subtotal1">28.000</p>
+        </div>
+    </div>
+    
+    <div class = "bungkusKotakLuar2">
+        <div class = "bungkusKotakBelanja">
+            <img class = "belanja2" src = "./Assets/yogurt.png">
+            <p class = "price1">15.000</p>
+            <div class = "tombolPlusMines">
+                <span class="down" onClick="Minus(event,this)">
+                    <img class = "buttonKurang2" src = "./Assets/tandaMines2.png">
+                </span>
+                <input class="kotakPlusMines2" type="text" value=1>    
+                <span class="down" onClick="Plus(event,this)">
+                    <img class = "buttonTambah2" src ="./Assets/tandaPlus2.png">
+                </span>
+            </div>
+            <p class = "subtotal1">15.000</p>
+        </div>
+    </div> 
+
+    <div class = "bungkusShippingOption">
+        <p class = "tulisanShippingOption">Shipping Option:</p>
+        <div class = "bungkusGojek">
+            <p class = "tulisanGojek">Gojek</p>
+            <p class = "estimasi">est. 1 hour delivery</p>
+        </div>
+        <div class = "dropdown">
+            <p class = "tulisanChange">Change</p>
+            <div class = "dropdownContents">
+                <p class = "dropdownContent1">Gojek - est. 1 hour delivery</p>
+                <p class = "dropdownContent2">Shopee Food - est. 1.5 hour delivery</p>
+                <p class = "dropdownContent3">Uber Eats - est. 55 minutes delivery</p>
+                <p class = "dropdownContent4">Grab Food - est. 1.2 hour delivery</p>
+            </div>
+        </div>
+        <p class = "hargaEstimasi">15.000</p>
+    </div>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+    <div class = "bungkusPaymentMethod">
+        <p class = "tulisanPaymentMethod">Payment Method:</p>
+        <div class = "kotakBayar">
+            <p class = "isiBayar">Cash on Delivery</p>
+        </div>
+        <div class = "dropdown">
+            <p class = "tulisanChange2">Change</p>
+            <div class = "dropdownContentss">
+                <p class = "dropdownContent1">Cash on Delivery</p>
+                <p class = "dropdownContent2">Ovo</p>
+                <p class = "dropdownContent3">GoPay</p>
+                <p class = "dropdownContent4">BCA</p>
+                <p class = "dropdownContent5">Mandiri</p>
+                <p class = "dropdownContent6">BNI</p>
+                <p class = "dropdownContent7">Permata Bank</p>
+            </div>
+        </div>
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+    <div class = "bungkusFee">
+        <p class = "tulisanFee">Handling Fee:</p>
+        <p class = "hargaFee">3.000</p>
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+    <div class = "bungkusTotal">
+        <p class = "tulisanTotal">Total:</p>
+        <p class = "hargaTotal">61.000</p>
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+    <div class = "bungkusKotakCheckOut">
+        <a href = "feedback.html">
+            <div class = "kotakCheckOut">
+                <p class = "tulisanCheckOut">Check-Out</p>
+            </div>
+        </a>
+    </div>
+
+    <br>
+    <br>
+    <br>
+
+    <footer class = "footer">
+        <div class = "bungkusFooter1">
+            <div class = "footer-left">
+                <p class = "dd">Daily Dessert?</p>
+                <p class = "penjelasanDD">
+                    Daily dessert is a dessert shop originating from Indonesia since 2016. It provides a variety of menus such as waffles, cakes, ice cream, drinks and others. 
+                    Diabetics or people who are afraid of gaining weight are very suitable to consume our food.</p>
+            </div>
+
+            <div class = "footer-center">
+               <p class = "tulisanContactUs">Contact Us</p>
+               <div class = "logoContactUs">
+                    <img class = "logoIg" src = "./Assets/logoIg.png">
+                    <img class = "logoFb" src = "./Assets/logoFB.png">
+                    <img class = "logoTwit" src = "./Assets/logoTwit.png">
+                    <img class = "logoYt" src = "./Assets/logoYt.png">
+                    <img class = "logoLine" src ="./Assets/logoLine.png">
+                </div>
+            </div>
+            
+            <div class = "footer-right">
+                <p class = "tulisanCopyRight">© 2022 Daily Dessert</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <script src = "script.js"></script>
+</body>
+</html>
